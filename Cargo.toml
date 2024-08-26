@@ -1,0 +1,10 @@
+[package]
+name = "roblox-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.16", features = ["derive"] }
+quote = "1.0.37"
+syn = { version = "2.0.76", features = ["extra-traits", "full", "visit"] }
