@@ -4,6 +4,10 @@ DISCLAIMER: The transpiler, if built from source, has an EXTREMELY big chance to
 due to the fact that `roblox-rs` uses internal rust crates, which are very unstable and are
 constantly changing.
 
+Why use internal crates instead of something like [syn](https://crates.io/crates/syn)? Well,
+`syn` doesn't support stuff like lifetime resolution and macro expanding, so I opted into
+using internal crates.
+
 ## building
 
 To build `roblox-rs`, first acquire a nightly version of the Rust compiler with [rustup](https://rustup.rs/).
