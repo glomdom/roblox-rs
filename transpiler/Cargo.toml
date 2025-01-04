@@ -1,0 +1,10 @@
+[package]
+name = "transpiler"
+version = "0.1.0"
+edition = "2024"
+
+[package.metadata.rust-analyzer]
+rustc_private = true
+
+[dependencies]
+ast = { path = "../ast" }
